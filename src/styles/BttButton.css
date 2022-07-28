@@ -1,0 +1,38 @@
+.bttBtn {
+  position: fixed;
+  top: 85vh;
+  left: 80vw;
+  height: 60px;
+  width: 60px;
+  border-color: #023047;
+  border-radius: 9999px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+}
+
+.bttVis {
+  opacity: 100%;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.bttVis:hover {
+  color: #f0f0f0;
+  background-color: #023047;
+  border: none;
+}
+
+.bttVis svg {
+  font-size: 48px;
+}
+
+.bttInvis {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.bttInvis svg {
+  font-size: 48px;
+}

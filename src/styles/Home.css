@@ -1,0 +1,106 @@
+.home {
+  position: relative;
+  width: 100%;
+  align-items: center;
+  color: #023047;
+  scroll-behavior: smooth;
+}
+
+.about {
+  width: 100%;
+  height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #023047;
+  color: #f0f0f0;
+}
+
+.about h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 60px;
+  color: #ffb703;
+  height: 50px;
+  margin-top: -5px;
+}
+
+.about .prompt {
+  width: 40%;
+  font-size: 30px;
+}
+
+.prompt svg {
+  font-size: 60px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+/* Skills container */
+.skills {
+  font-size: 35px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Skills headers*/
+.skills h1 {
+  color: #023047;
+}
+
+/* Skills List Item container */
+.skills .skillList {
+  list-style: none;
+  max-width: 60%;
+}
+
+.skillList {
+  padding-left: 0;
+  margin-top: 0;
+}
+
+/* Skills */
+.skillList span {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  .about h2 {
+    margin-top: -20px;
+    margin-bottom: 100px;
+  }
+
+  .about .prompt {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about h2 {
+    font-size: 40px;
+    margin-top: -5px;
+    width: 75%;
+  }
+
+  .about .prompt {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 95%;
+  }
+
+  .skills {
+    text-align: center;
+  }
+
+  .skills h1 {
+    font-size: 38px;
+  }
+
+  .skills h2 {
+    font-size: 30px;
+  }
+}
