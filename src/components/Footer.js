@@ -1,16 +1,17 @@
-import React from 'react'
 import FacebookIcon from '@mui/icons-material/Facebook';
-import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import '../styles/Footer.css'
+import TwitterIcon from '@mui/icons-material/Twitter';
+import React from 'react';
+import '../styles/Footer.css';
 
 function Footer() {
     return (
         <div className='footer'>
             <div className='socialMedia'>
-                <FacebookIcon />
-                <InstagramIcon />
-                <TwitterIcon />
+                <a target='_blank' rel='noreferrer' href='https://github.com/Oxrod'><FacebookIcon /></a>
+                <a target='_blank' rel='noreferrer' href='https://www.instagram.com/trystanrld/?hl=fr'><InstagramIcon /></a>
+                <a target='_blank' rel='noreferrer' href='https://twitter.com/trystanrld'><TwitterIcon /></a>
+
             </div>
             <p> &copy; 2022 trystan-rolland.com</p>
         </div>

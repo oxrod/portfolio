@@ -1,10 +1,10 @@
-import React from 'react'
 import EmailIcon from '@mui/icons-material/Email';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import '../styles/Home.css'
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import React from 'react';
 import BttButton from '../components/BttButton';
 import { SkillsLists } from '../helpers/SkillsLists';
+import '../styles/Home.css';
 
 function Home() {
     return (
@@ -16,9 +16,9 @@ function Home() {
                     <p>
                         Développeur Web curieux orienté Front-End, enthousiaste de découvrir de nouvelles technologies
                     </p>
-                    <EmailIcon />
+                    <a target='_blank' rel='noreferrer' href='mailto:trystan.rolland1@gmail.com'><EmailIcon /></a>
                     <LinkedInIcon />
-                    <GitHubIcon />
+                    <a target='_blank' rel='noreferrer' href='https://github.com/Oxrod'><GitHubIcon /></a>
                 </div>
             </div>
             <div className='skills'>

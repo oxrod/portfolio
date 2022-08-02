@@ -1,14 +1,16 @@
-import React from 'react'
-import { useParams } from 'react-router-dom'
-import { ProjectList } from '../helpers/ProjectList';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import '../styles/ProjectDisplay.css'
+import React from 'react';
+import { useParams } from 'react-router-dom';
+import BttButton from '../components/BttButton';
+import { ProjectList } from '../helpers/ProjectList';
+import '../styles/ProjectDisplay.css';
 
 function ProjectDisplay() {
     const { id } = useParams();
     const project = ProjectList[id]
     return (
         <div className='project'>
+            <BttButton />
             <h1>
                 {project.name}
             </h1>

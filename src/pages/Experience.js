@@ -1,17 +1,19 @@
-import React from 'react'
+import SchoolIcon from '@mui/icons-material/School';
+import WorkIcon from '@mui/icons-material/Work';
+import React from 'react';
 import {
     VerticalTimeline,
     VerticalTimelineElement
 } from 'react-vertical-timeline-component';
-import "react-vertical-timeline-component/style.min.css"
-import SchoolIcon from '@mui/icons-material/School';
-import WorkIcon from '@mui/icons-material/Work';
-import '../styles/Experience.css'
+import "react-vertical-timeline-component/style.min.css";
+import BttButton from '../components/BttButton';
+import '../styles/Experience.css';
 
 function Experience() {
-    
+
     return (
         <div className='experience'>
+            <BttButton />
             <VerticalTimeline lineColor='#023047'>
                 {/* Stage Keyveo */}
                 <VerticalTimelineElement

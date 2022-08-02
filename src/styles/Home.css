@@ -6,6 +6,11 @@
   scroll-behavior: smooth;
 }
 
+a {
+  color: white;
+  background-color: #023047;
+}
+
 .about {
   width: 100%;
   height: calc(100vh - 80px);
