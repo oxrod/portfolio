@@ -23,7 +23,7 @@ function Experience() {
                     icon={<WorkIcon />}
                 >
                     <h3 className='vertical-timeline-element-title'>
-                        Stage d'une chez Keyveo
+                        Stage d'une semaine chez Keyveo
                     </h3>
                     <p>
                         Stage de 3e non rémunéré en entreprise, focus sur le game design et la modélisation 3D
