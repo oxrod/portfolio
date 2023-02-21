@@ -23,7 +23,7 @@ function Experience() {
                     icon={<WorkIcon />}
                 >
                     <h3 className='vertical-timeline-element-title'>
-                        Stage d'un mois chez Keyveo
+                        Stage d'une chez Keyveo
                     </h3>
                     <p>
                         Stage de 3e non rémunéré en entreprise, focus sur le game design et la modélisation 3D
@@ -60,7 +60,7 @@ function Experience() {
                     </p>
                 </VerticalTimelineElement>
 
-                {/* Formation O'Clock */}
+                {/* Formation Studi */}
                 <VerticalTimelineElement
                     className='vertical-timeline-element--education'
                     date="Septembre 2022 - Aujourd'hui"
@@ -68,10 +68,10 @@ function Experience() {
                     icon={<SchoolIcon />}
                 >
                     <h3 className='vertical-timeline-element-title'>
-                        Formation O'Clock en télépresentiel
+                        Formation <a href='https://www.studi.com/fr/formation/developpement/graduate-developpeur-web-full-stack'>Graduate Développeur Front-End</a> chez <a href='https://www.studi.com/fr'>Studi</a>
                     </h3>
                     <p>
-                        Titre Professionnel de Développeur Web et Web Mobile, niveau 5 (bac+2)
+                        Titre Professionnel "Développeur web et web mobile" niveau 5 (bac+2)
                     </p>
                 </VerticalTimelineElement>
             </VerticalTimeline>
